@@ -11,7 +11,7 @@ public class MazeMain {
         int gridRows = 31;
         MazeRunnerAPI runner = new ManualMazeRunner();
         // MazeRunnerAPI runner = new HumanChoiceMazeRunner();
-        new Maze(runner, 1, "tdragon", "29315085544", gridColumns, gridRows);
+        new Maze(runner, 1, "YOUR_BRIDGES_USER_ID", "YOUR_BRIDGES_API_KEY", gridColumns, gridRows);
       }
     
 }
